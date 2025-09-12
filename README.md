@@ -1,23 +1,44 @@
-# UniDDoS
-A DDoS script that can take down low to medium scale WiFi networks and some websites. This was made to prank my mom when she uses her TV, but i turned it into a proper DDoSer.
+# UniDDoS 
 
-# Setup
+A DDoS script designed for DDoSing low to medium-scale WiFi networks and websites. Originally created as a prank for my mom, but it was evolved into a proper ddos tool.
 
-First, install the requirements:
-  - Python 3.13+
-  - pip 3.13+
-  - node.js (for server testing)
+> **Disclaimer:** I do not hold accountable for any damage or major scaled attacks in the future of uploading this. Use at your own risk.
 
-Then, install the libraries required:
-  - `pip install -r requirements.txt`
-You should see the shell installing all the required libs.
+---
 
-# How to Use
-First, you need to find an IP or a URL, pick your choice. Lets say the IP is 12.43.55.812, this is just an example but you can use your own target. Then, while in the same terminal set to your folder, enter `python happyday.py`. You should see a UI pop up on the screen, and that is your centre of command.
+##  Setup
 
-You can set the target to a URL or IP, your choice.
-then you can set the amount of requests, if you want to flood (infinite requests), then just remove any numbers and leave it empty.
-You can adjust the threads to how many threads you want, can be from 5 to 100, your choice, but your computors limits. 
-Set the delay to whatever you want the delay to be inbetween each ping, i set it by default to rapidly send. 
-Click "Start" to start the program once you setup everything, and then you can see traffic waves below. 
-Press "Stop" if you want to end the attack.
+### Requirements
+- Python 3.13+
+- pip 3.13+
+- Node.js (for server testing)
+
+### Install Dependencies
+`pip install -r requirements.txt`
+
+> This will automatically install all the required libraries.
+
+---
+
+##  How to Use
+
+1. **Choose Your Target**
+   - You can use an **IP** (e.g., `12.43.55.812`) or a **URL`.  
+   - Make sure you have permission to test it.  
+
+2. **Run the Program**
+
+- A **UI window** will appear — this is your central command interface.
+
+3. **Configure Attack Parameters**
+- **Target:** IP or URL  
+- **Number of Requests:** Set the amount, or leave empty for infinite/flood mode  
+- **Threads:** Adjust from 5 to 100 depending on your computer’s capabilities  
+- **Delay:** Set the interval between pings (default is rapid-fire)  
+
+4. **Start & Stop**
+- Click **Start** to begin the attack  
+- Monitor the **traffic waves** in real-time  
+- Click **Stop** to end the attack  
+
+---
