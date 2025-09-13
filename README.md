@@ -41,4 +41,18 @@ A DDoS script designed for DDoSing low to medium-scale WiFi networks and website
 - Monitor the **traffic waves** in real-time  
 - Click **Stop** to end the attack  
 
+## Features
+
+   - IP Source spoofing
+   - IP DDoSer
+   - unlimited amount of packets
+   - unlimited amount of threads
+   - allows to target specified ports
+   - HTTP/HTTPS DDoSer
+
+## Files
+
+   - `happyday.py` = HTTP/HTTPS DDoSing
+   - `sadday.py` = IP DDoSing
+   - `web-testing.js` = Web Server (To test with)
 ---
